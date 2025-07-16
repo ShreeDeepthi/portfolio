@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { Cpu, BookOpen, LineChart, Heart, DollarSign, MessageSquare, Brain, TrendingUp } from "lucide-react"
+import { Cpu, BookOpen, LineChart, DollarSign, MessageSquare, Brain, TrendingUp } from "lucide-react"
 import Link from "next/link"
 
 export default function Projects() {
@@ -60,12 +60,6 @@ export default function Projects() {
       description: "A Python-based chatbot for offering emotional support using empathetic responses and GUI.",
       icon: <MessageSquare className="h-10 w-10 text-foreground" />,
       technologies: ["Python", "NLP", "GUI", "Emotional Intelligence"],
-    },
-    {
-      title: "College Placement Assistance Tool",
-      description: "Full-stack Java platform to help students track placement listings and progress.",
-      icon: <Heart className="h-10 w-10 text-foreground" />,
-      technologies: ["Java", "Full Stack", "Database", "Student Tools"],
     },
   ]
 
